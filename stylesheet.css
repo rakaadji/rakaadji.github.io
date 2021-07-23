@@ -1,0 +1,210 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+	margin: 0;
+	padding: 0;
+
+}
+
+
+body {
+	font-family: "Avenir Next";
+
+}
+
+.header{
+	background-color: #6d6d6d;
+	height: 70px;
+	color: #fff;
+	position: fixed;
+  	z-index: 10;
+  	width: 100%;
+}
+
+.header-logo{
+	width: 110px;
+	padding-top: 7px;
+	padding-left: 15px;
+	float: left;
+}
+
+.header-list a{
+	border: 2px solid white;
+	border-radius: 12px;
+	color: white;
+	text-decoration:none;
+	padding: 7px 7px;
+}
+
+ li {
+	list-style: none;
+	float: right;
+	padding: 23px 30px 0px 0px;
+	font-size: 20px;
+}
+
+.main{
+	background-color: #e7e7e7;
+	padding: 100px 40px 30px 40px;
+}
+
+/*slideshow*/
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/*akhir slideshow*/
+
+.main-message{
+  background-color: white;
+  height: 300px; 
+}
+
+.message{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.message h3{
+  font-size: 35px;
+}
+
+.message-logo{
+  width: 300px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display:block;
+  margin:auto;
+}
+
+.message p{
+  font-size: 20px;
+}
+
+.main-service{
+	background-color: #686868;
+	padding-left: 40px;
+}
+
+.contents{
+  height: 500px;
+}
+
+.sesi-judul{
+  border-bottom: 2px solid #dee7ec;
+  padding-top: 20px;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.contents-item{
+  float: left;
+  margin-right: 60px;
+  
+}
+
+.contents-item img{
+	width: 200px;
+}
+
+.contents-item p{
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+
+.footer{
+	background-color: #e7e7e7;
+	width: 100%;
+	height: 80px;
+}
+
+.footer-right li a{
+  text-decoration:none;
+  color: #858585;
+}
+
+.footer-logo{
+	width: 110px;
+	padding-top: 7px;
+	padding-left: 15px;
+	float: left;
+}
+
+.footer p {
+  color: #858585;
+  float: left;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-top: 25px;
+}
